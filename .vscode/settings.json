@@ -1,13 +1,10 @@
 {
     "json.schemas": [
         {
-            "url": "https://raw.githubusercontent.com/Ash258/Scoop-Core/main/schema.json",
+            "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
             "fileMatch": [
                 ".vscode/Template.jsonc",
-                "bucket/*.json*",
-                "bucket/old/**/*.json*",
-                "deprecated/*.json*",
-                "TODO/*.json*",
+                "bucket/*.json",
             ],
         },
     ],
@@ -17,17 +14,9 @@
     "yaml.format.singleQuote": true,
     "yaml.validate": true,
     "yaml.schemas": {
-        "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/appveyor.json": [
-            "*appveyor.y*ml",
-        ],
-        "https://raw.githubusercontent.com/Ash258/Scoop-Core/main/schema.json": [
-            "bucket/*.y*ml",
-            "bucket/old/**/*.y*ml",
-            "deprecated/*.y*ml",
-            "TODO/*.y*ml",
-        ],
-        "https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/github-workflow.json": [
-            ".github/workflows/*.y*ml",
+        "http://json.schemastore.org/appveyor": "appveyor.yml",
+        "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json": [
+            "bucket/*.yml",
         ],
     },
     "terminals.terminals": [

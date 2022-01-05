@@ -1,10 +1,9 @@
 {
     "recommendations": [
-        "DavidAnson.vscode-markdownlint",
         "EditorConfig.EditorConfig",
-        "ms-vscode.powershell-preview",
+        "ms-vscode.PowerShell",
         "redhat.vscode-yaml",
-        "usernamehw.errorlens",
-        "yzhang.markdown-all-in-one",
+        "fabiospampinato.vscode-terminals",
+        "PhilHindle.errorlens",
     ],
 }
