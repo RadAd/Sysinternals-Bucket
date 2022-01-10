@@ -5,5 +5,9 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: MinoruSekine/setup-scoop@v1
+      - run: 'pwd'
+        shell: powershell
+      - run: 'dir'
+        shell: powershell
       - run: 'Invoke-Expression "$env:USERPROFILE\scoop\apps\scoop\current\bin\checkver.ps1 -App * -Dir bucket"'
         shell: powershell
