@@ -5,5 +5,5 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: MinoruSekine/setup-scoop@v1
-      - run: 'scoop'
+      - run: '"%USERPROFILE%\scoop\apps\scoop\current\bin\checkver.ps1" -App * -Dir bucket'
         shell: powershell
