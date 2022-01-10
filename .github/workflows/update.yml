@@ -1,0 +1,9 @@
+name: update
+on: [workflow_dispatch]
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - uses: MinoruSekine/setup-scoop
+      - run: 'scoop'
+        shell: powershell
