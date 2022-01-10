@@ -4,6 +4,6 @@ jobs:
   update:
     runs-on: windows-latest
     steps:
-      - uses: MinoruSekine/setup-scoop
+      - uses: MinoruSekine/setup-scoop@v1
       - run: 'scoop'
         shell: powershell
