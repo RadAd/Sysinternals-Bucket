@@ -8,3 +8,11 @@ jobs:
       - uses: MinoruSekine/setup-scoop@v1
       - run: 'Invoke-Expression "$env:USERPROFILE\scoop\apps\scoop\current\bin\checkver.ps1 -App * -Dir bucket -U"'
         shell: powershell
+      - run: git config --global user.name 'Update Action'
+        shell: cmd
+      - run: git config --global user.email 'update.action@gmail.com'
+        shell: cmd
+      - run: 'git commit -am "Updated"'
+        shell: cmd
+      - run: git push
+        shell: cmd
