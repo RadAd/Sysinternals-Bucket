@@ -1,8 +1,6 @@
-# Scoop Sysinternals Bucket [![Build status](https://img.shields.io/appveyor/ci/Ash258/scoop-Sysinternals/master.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Ash258/scoop-sysinternals)
+# Scoop Sysinternals Bucket
 
-`scoop bucket add Sysinternals 'https://github.com/Ash258/Scoop-Sysinternals.git'`
-
-❗❗ [For the most optimized scoop experience use "shovel" implementation](https://github.com/Ash258/Scoop-Core) ❗❗
+`scoop bucket add Sysinternals 'https://github.com/RadAd/Sysinternals-Bucket.git'`
 
 All applications are configured to automatically accept [End-user license agreement](https://docs.microsoft.com/en-us/sysinternals/license-terms).
 
