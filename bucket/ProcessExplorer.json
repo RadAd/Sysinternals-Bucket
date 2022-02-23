@@ -35,7 +35,7 @@
             "shortcuts": [
                 [
                     "procexp64.exe",
-                    "SysInternals\\ProcessExplorer"
+                    "SysInternals\\Process Explorer"
                 ]
             ]
         },
@@ -44,7 +44,7 @@
             "shortcuts": [
                 [
                     "procexp.exe",
-                    "SysInternals\\ProcessExplorer"
+                    "SysInternals\\Process Explorer"
                 ]
             ]
         },
@@ -59,7 +59,7 @@
             "shortcuts": [
                 [
                     "procexp64a.exe",
-                    "SysInternals\\ProcessExplorer"
+                    "SysInternals\\Process Explorer"
                 ]
             ]
         }
