@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: MinoruSekine/setup-scoop@v1
+      - uses: MinoruSekine/setup-scoop@main
       - run: 'Invoke-Expression "$env:USERPROFILE\scoop\apps\scoop\current\bin\checkver.ps1 -App * -Dir bucket -U"'
         shell: powershell
       - run: git config --global user.name 'Update Action'
