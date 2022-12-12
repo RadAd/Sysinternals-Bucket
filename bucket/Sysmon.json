@@ -1,5 +1,5 @@
 {
-    "version": "14.12",
+    "version": "14.13",
     "description": "Sysmon. Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log.",
     "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
     "url": "https://download.sysinternals.com/files/Sysmon.zip",
-    "hash": "369e2601aae5612f7d9cb9645aa240a9847c0b1ecbeecf31a6eeea6900e6e993",
+    "hash": "23b123ce3400b938e6a7d29dd5ba6f54772c4cde6796ef760b6572df7f7a34f6",
     "pre_install": [
         "$sysint = 'HKCU:\\SOFTWARE\\Sysinternals'",
         "$fin = \"$sysint\\System Monitor\"",
