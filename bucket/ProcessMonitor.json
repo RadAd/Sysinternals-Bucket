@@ -1,5 +1,5 @@
 {
-    "version": "3.93",
+    "version": "3.95",
     "description": "ProcessMonitor. Monitors file system, registry, process, thread and DLL activity in real-time.",
     "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/procmon",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
     "url": "https://download.sysinternals.com/files/ProcessMonitor.zip",
-    "hash": "6109db66458f42f4c75470bfe12bd8a695da4189f5438b3b4ecd6fca2625fc73",
+    "hash": "1e666af1fd3e092973170b5cb6b6f514f51eb874458534fab32e9b7132dfd054",
     "pre_install": [
         "$sysint = 'HKCU:\\SOFTWARE\\Sysinternals'",
         "$fin = \"$sysint\\Process Monitor\"",
